@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/qr_code"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/logo_x"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/logo"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp"
+                android:layout_centerHorizontal="true"
+                android:text="在线抓娃娃机"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+
+
+
+            <Button
+                android:id="@+id/btn_Start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/qr_code"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/shape_start_btn"
+                android:elevation="12dp"
+                android:translationZ="4dp"
+                android:text="开始游戏"/>
+
+            <TextView
+                android:id="@+id/tv_call"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:padding="12dp"
+                android:gravity="center"
+                android:layout_marginBottom="12dp"
+                android:layout_alignParentBottom="true"
+                android:text="技术支持：021-65650071-840"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>

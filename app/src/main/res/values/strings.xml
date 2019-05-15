@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">anyRTC娃娃机</string>
+    <string name="had_send">放弃(%s)秒</string>
+    <string name="time">抓取 \n (%sS)</string>
+</resources>

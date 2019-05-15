@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9000000">
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/img_gamestart" />
+
+            <TextView
+                android:id="@+id/tv_fangqi"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="bottom"
+                android:textColor="#ffffff"
+                android:text="不想抓了"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/button_wulizaizhan"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_begin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+            android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/button_zailaiyiju"
+                android:gravity="center"
+                android:text="开始游戏"
+                android:layout_gravity="bottom|right"
+                android:textColor="#ffffff" />
+        </FrameLayout>
+
+
+
+
+</RelativeLayout>
