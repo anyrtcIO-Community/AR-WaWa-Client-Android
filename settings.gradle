@@ -1,1 +1,1 @@
-include ':app' ,':anyrtcwawaclient'
+include ':app'
